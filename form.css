@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #1e2a5d;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #1e2a5d;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form Section */
+.form-section {
+    padding: 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Gender Section Alignment */
+.gender-selection {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.gender-selection label {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Terms and Conditions */
+.terms-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 300px;
+}
+
+.terms-container input {
+    margin-right: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 1;
+    background-color: #1e2a5d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e2a5d;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
